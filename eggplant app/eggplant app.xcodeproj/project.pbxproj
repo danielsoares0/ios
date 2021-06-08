@@ -26,6 +26,7 @@
 		E180A2A8266721B500B86142 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E180A2AA266721B500B86142 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E180A2B5266723B000B86142 /* Refeicao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Refeicao.swift; sourceTree = "<group>"; };
+		E18FF570266857DD00AE7232 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +65,7 @@
 				E180A2B2266721DD00B86142 /* Controller */,
 				E180A29E266721B300B86142 /* SceneDelegate.swift */,
 				E180A2A5266721B500B86142 /* Assets.xcassets */,
+				E18FF570266857DD00AE7232 /* MyPlayground.playground */,
 				E180A2A7266721B500B86142 /* LaunchScreen.storyboard */,
 				E180A2AA266721B500B86142 /* Info.plist */,
 			);
