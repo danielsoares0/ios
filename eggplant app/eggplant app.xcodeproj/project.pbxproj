@@ -15,6 +15,7 @@
 		E180A2A9266721B500B86142 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E180A2A7266721B500B86142 /* LaunchScreen.storyboard */; };
 		E180A2B6266723B000B86142 /* Refeicao.swift in Sources */ = {isa = PBXBuildFile; fileRef = E180A2B5266723B000B86142 /* Refeicao.swift */; };
 		E1B558D0266FB513000E6C72 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1B558CF266FB513000E6C72 /* Item.swift */; };
+		E1D4B4452670FCDB001D2113 /* RefeicoesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1D4B4442670FCDB001D2113 /* RefeicoesTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		E180A2B5266723B000B86142 /* Refeicao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Refeicao.swift; sourceTree = "<group>"; };
 		E18FF570266857DD00AE7232 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		E1B558CF266FB513000E6C72 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		E1D4B4442670FCDB001D2113 /* RefeicoesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefeicoesTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +89,7 @@
 			isa = PBXGroup;
 			children = (
 				E180A2A0266721B300B86142 /* ViewController.swift */,
+				E1D4B4442670FCDB001D2113 /* RefeicoesTableViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -172,6 +175,7 @@
 				E1B558D0266FB513000E6C72 /* Item.swift in Sources */,
 				E180A2A1266721B300B86142 /* ViewController.swift in Sources */,
 				E180A29D266721B300B86142 /* AppDelegate.swift in Sources */,
+				E1D4B4452670FCDB001D2113 /* RefeicoesTableViewController.swift in Sources */,
 				E180A29F266721B300B86142 /* SceneDelegate.swift in Sources */,
 				E180A2B6266723B000B86142 /* Refeicao.swift in Sources */,
 			);
