@@ -34,7 +34,7 @@
                     <navigationItem key="navigationItem" id="wVm-lA-iw6">
                         <barButtonItem key="rightBarButtonItem" title="Add" id="0i8-LE-wMG">
                             <connections>
-                                <segue destination="BYZ-38-t0r" kind="show" id="wSh-u3-JZs"/>
+                                <segue destination="BYZ-38-t0r" kind="show" identifier="adicionar" id="wSh-u3-JZs"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
@@ -97,7 +97,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-439" y="76"/>
+            <point key="canvasLocation" x="-335" y="84"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="UKe-V5-ggY">
