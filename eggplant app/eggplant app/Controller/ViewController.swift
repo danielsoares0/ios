@@ -11,12 +11,31 @@ protocol AdicionaRefeicaoDelegate {
     func add(_ refeicao: Refeicao)
 }
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, UITableViewDataSource {
+    
+    // MARK: Atributos
     
     var delegate: AdicionaRefeicaoDelegate?
+    var itens: [String] = ["molho de tomate","queijo", "molho apimentado","manjericão"]
+    
+    // MARK: IBOutlets
     
     @IBOutlet weak var nomeTextField: UITextField?
     @IBOutlet var felicidadeTextField: UITextField?
+    
+    // MARK: UITableViewDataSource
+    
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return itens.count
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = UITableViewCell(style: .default, reuseIdentifier: nil)
+        cell.textLabel?.text = itens[indexPath.row]
+        return cell
+    }
+    
+    // MARK: IBActions
     
     @IBAction func adicionar(_ sender: Any) {
         
